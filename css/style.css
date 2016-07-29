@@ -1,0 +1,303 @@
+body{
+	background: #fff;
+}
+
+.custom-container{
+	width: 85%;
+	margin: auto;
+}
+
+.brand-logo{
+	top: 5px;
+}
+
+.adurcup-orange{
+	background: #c8711a !important;
+}
+
+.top-image-wrapper{
+	height: 300px;
+	width: 85%;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-position: center;
+}
+
+.page-title{
+	width: 85%;
+	margin: auto;
+}
+
+.page-title h1{
+	margin-bottom: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #333;
+}
+
+.page-title hr{
+	margin: 5px 0;
+	color: #ccc;
+	width: 100%;
+}
+
+.page-title p{
+	margin: 0 0 20px 0;
+	color: #999;
+}
+
+.content h1{
+	font-size: 2em;
+	font-weight: bold;
+	color: #666;
+}
+
+.content p{
+	text-align: center;
+	color: #666;
+}
+
+hr{
+	width: 85%;
+	margin: 71px auto;
+}
+
+
+
+/*TIMELINE*/
+
+.timeline{
+	position: relative;
+}
+
+.line{
+	position: absolute;
+	left: calc(50% - 2px);
+	height: 100%;
+	width: 2px;
+	background: #ccc; 
+}
+
+.start-spot{
+	position: relative;
+	height: 16px;
+	width: 16px;
+	background: #ccc;
+	left: calc(50% - 9px);
+	top: 0;
+	border-radius: 100%;
+}
+
+.spot{
+	/*position: relative;*/
+}
+
+.spot .img{
+	position: relative;
+	border-radius: 100%;
+	top: 50px;
+	left: calc(50% - 25px);
+	height: 50px;
+	width: 50px;
+}
+
+.spot p{
+	position: relative;
+	/*top: 25px;*/
+	width: 40%;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*left: 7%;*/
+}
+
+.spot p span{
+	display: block;
+	font-weight: bold;
+}
+
+.spot-right p{
+	/*float: right;*/
+    right: calc(-50% - 40px);
+    text-align: left;
+}
+
+.spot-left p{
+    left: 7%;
+    text-align: right;
+}
+
+@media only screen and  (max-width: 900px){
+	.spot-left p{
+		left: 0;
+	}
+}
+
+.end-spot{
+	position: relative;
+	bottom: -60px;
+	height: 16px;
+	width: 16px;
+	background: #ccc;
+	left: calc(50% - 9px);
+	border-radius: 100%;
+}
+
+.team{
+	text-align: center;
+}
+
+.team img{
+	border-radius: 5px;
+}
+
+/*Team Card*/
+
+.card-image{
+	height: 200px;
+	overflow: hidden; 
+}
+
+.card-content{
+	padding: 5px !important;
+}
+
+.card-content h5{
+	font-size: 1em;
+	margin-bottom: 0;
+	font-weight: bold;
+	color: #333;
+}
+
+.card-content p{
+	margin: 0 !important;
+	margin-bottom: 5px !important;
+	font-size: 12px;
+	color: #c8711a !important;
+}
+
+.card-action{
+	padding: 5px !important;
+}
+
+.card-action a{
+	color: #666 !important;
+}
+
+
+/*FOOTER*/
+footer{
+	background-color: #262626;
+	margin-top: 50px;
+}
+
+footer p{
+	color: #fff;
+}
+
+footer hr{
+	margin: 50px auto;
+}
+
+#mapDiv{
+	border-radius: 5px;
+}
+
+#contact{
+	text-align: right;
+	color: #fff;
+}
+
+#contact a{
+	color: #fff;
+}
+
+.social ul{
+	list-style: none;
+	text-align: center;
+}
+.social ul li{
+	color: #bebebe;
+	border: 1px solid #aaaaaa;
+	display: inline; 
+	padding: 0.2em;
+	margin: 1em;
+	background-color: #2f2f2f;
+	font-size: 1.5em;
+}
+.social ul li i{
+	min-width: 1em;
+	min-height: 1em;
+}
+
+.social ul li a{
+	color: #bebebe;	
+}
+
+.social p{
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #666;
+}
+
+.secondary-nav p{
+	text-align: left;
+	font-weight: bold;
+	color: #666;
+}
+.secondary-nav ul{
+	list-style: none;
+	text-align: left;
+}
+.secondary-nav ul li{
+	color: #686868;
+	display: block; 
+	margin: 7px 0;
+}
+.secondary-nav ul li i{
+	min-width: 1em;
+	min-height: 1em;
+}
+
+.secondary-nav ul li a{
+	color: #999;	
+	text-decoration: none;
+}
+
+.copyright{
+	color: #686868;	
+	padding-bottom: 1em;	
+}
+
+@media screen and (max-width: 720px) {
+    #contact{
+		text-align: center;
+		color: #fff;
+	}
+
+	.social ul li{
+		padding: 0.2em;
+		margin: 0.5em;
+	}
+
+	.secondary-nav ul li{
+		display: inline-block;
+		min-width: 25%;
+	}
+}
+
+.lastlinebsdk{
+	margin-bottom: 10px; 
+}
+
+.tps{
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.tps a{
+	color: #666;
+	margin-left: 5px; 
+	margin-right: 5px; 
+}
